@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: var(--font-family-general, 'PT Sans');
+}
+
+body, form, input, button, select, option {
+    font: inherit;
+}
+
+body {
+    max-width: 50em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-headings, 'PT Serif');
+    padding: 1em 0 1em 0;
+}
